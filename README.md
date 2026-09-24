@@ -10,9 +10,9 @@
 
 Проект содержит основной Bash-скрипт `app.sh`, файл данных `data/notes.txt`, каталог `reports`, каталог `screenshots` и данный файл `README.md`.
 
-[Скриншот структуры проекта — 01-project-folder.png](screenshots/01-project-folder.png)
+![Скриншот структуры проекта — 01-project-folder.png](screenshots/01-project-folder.png)
 
-[Скриншот файлов и папок проекта — 02-project-folders.png](screenshots/02-project-folders.png)
+![Скриншот файлов и папок проекта — 02-project-folders.png](screenshots/02-project-folders.png)
 
 ## 3. Основной файл приложения
 
@@ -28,7 +28,7 @@
 
 После запуска отображается главное меню с пятью рабочими действиями и пунктом выхода.
 
-[Скриншот главного меню — 03-menu.png](screenshots/03-menu.png)
+![Скриншот главного меню — 03-menu.png](screenshots/03-menu.png)
 
 ## 5. Функциональность приложения
 
@@ -40,7 +40,7 @@
 
 Пункт 2 выводит все сохранённые заметки с номерами.
 
-[Скриншот списка заметок — 04-list.png](screenshots/04-list.png)
+![Скриншот списка заметок — 04-list.png](screenshots/04-list.png)
 
 ### 5.3. Поиск заметки
 
@@ -48,7 +48,7 @@
 
 Для поиска используется текстовая утилита `grep`.
 
-[Скриншот поиска заметки — 05-search.png](screenshots/05-search.png)
+![Скриншот поиска заметки — 05-search.png](screenshots/05-search.png)
 
 ### 5.4. Подсчёт заметок
 
@@ -56,7 +56,7 @@
 
 Для подсчёта строк используется команда `wc -l`.
 
-[Скриншот подсчёта заметок — 06-count.png](screenshots/06-count.png)
+![Скриншот подсчёта заметок — 06-count.png](screenshots/06-count.png)
 
 ### 5.5. Удаление заметки
 
@@ -64,7 +64,7 @@
 
 Для удаления строки из файла используется команда `sed`.
 
-[Скриншот результата удаления — 07-delete-result.png](screenshots/07-delete-result.png)
+![Скриншот результата удаления — 07-delete-result.png](screenshots/07-delete-result.png)
 
 ## 6. Обработка неправильного пункта меню
 
@@ -72,7 +72,7 @@
 
 Если пользователь вводит пункт, которого нет в меню, программа выводит сообщение об ошибке и возвращает пользователя обратно в главное меню.
 
-[Скриншот обработки неверного пункта — 11-invalid-option.png](screenshots/11-invalid-option.png)
+![Скриншот обработки неверного пункта — 11-invalid-option.png](screenshots/11-invalid-option.png)
 
 ## 7. Хранение данных
 
@@ -80,7 +80,7 @@
 
 Файл изменяется при добавлении и удалении заметок.
 
-[Скриншот итоговой проверки данных — 08-final-check.png](screenshots/08-final-check.png)
+![Скриншот итоговой проверки данных — 08-final-check.png](screenshots/08-final-check.png)
 
 ## 8. Используемые элементы Bash
 
